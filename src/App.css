@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  background-color: #212121;
+  color: whitesmoke;
+  flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.main-header{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.red-color {
+  background-color: red;
+}
+
+.blue-color {
+  background-color: blue;
+}
